@@ -1,0 +1,179 @@
+p a {
+	color:#a4d1f7;
+	text-decoration: underline;
+	
+	font-family: 'Della Respira', serif;
+}
+
+p {
+	font-family: 'Della Respira', serif;
+	font-size: 18px;
+}
+
+.toptitle{
+	font-size: 65px;
+	background: -webkit-linear-gradient(#34E89E, #0F3443);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 45px;
+	font-family: 'Della Respira', serif;
+}
+
+.id_title{
+	font-family: 'Della Respira', serif;
+}
+
+h3{
+	font-size: 50px;
+	background: -webkit-linear-gradient(#34E89E, #0F3443);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Della Respira', serif;
+}
+
+h5{
+	color:white;
+}
+
+div .dropdown-menu{
+	background-image: linear-gradient(to bottom right, #16222A, #0F3443);
+}
+
+.jumbotron {
+	color:#FFF;
+	text-align: center;
+	/*background-image: linear-gradient(to bottom right, #34E89E, #0F3443);*/
+	
+    
+}
+
+
+.jumbo-icon-area{
+	text-align: center;
+}
+
+.bg-apps{
+	color: 	black;
+	/*background-image: /*linear-gradient(to bottom right, #16222A, #3A6073)*//*#3A6073;*/
+	padding: 50px 25px;
+}
+
+.bg-grey{
+	background-color: black;
+	color: white;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-image: linear-gradient(to bottom right, #16222A, #3A6073);
+	z-index: 9999;
+	border :0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #0F3443;
+}
+
+img{
+	cursor:pointer;
+	/*box-shadow: 10px 10px 5px grey;*/
+}
+
+.vid{
+	min-width: 100%;
+	min-height: 100%;
+	
+}
+
+.ico{
+	width: 150px;
+	height: 150px;
+ border-radius:35px;
+  margin-bottom: 25px;
+
+	box-shadow: 8px -4px 5px  rgba(0,0,0,0.3);
+  -moz-box-shadow: 8px -4px 5px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 8px -4px 5px  rgba(0,0,0,0.3);
+  -o-box-shadow: 8px -4px 5px  rgba(0,0,0,0.3);
+ 
+  -webkit-box-reflect: below 3px linear-gradient(to bottom, rgba(0,0,0,0.0) 90%, rgba(0,0,0,0.4));
+}
+
+img.ss{
+	
+	cursor: default;
+	
+	margin: 10px;
+	border-radius:15px;
+	
+
+	box-shadow: 8px 8px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 8px 8px 5px  rgba(0,0,0,0.3);
+  -webkit-box-shadow: 8px 8px 5px  rgba(0,0,0,0.3);
+  -o-box-shadow: 8px 8px 5px  rgba(0,0,0,0.3);
+	/*padding-left:0;
+	padding-right:0;*/
+}
+
+.p_class{
+	display: block;
+	 box-sizing: border-box;
+	 padding-left: 25%;
+	 padding-right: 25%;
+}
+
+.padding-0{
+	padding-right: 0;
+	padding-left:0;
+}
+
+
+.blur-image {
+	filter:blur(4px);
+	-webkit-filter:blur(4px);
+	background-position: center;
+	background-size: cover;	
+}
+
+.modal-content {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	
+	-webkit-transform :translate(100%,0);
+	-o-transform:translate(100%, 0);
+	transform:translate(100%,0);
+}
+
+.modal-content div{
+	z-index: 2;
+	color: white;
+	font-weight: bold;
+}
+
+.modal-content h4{
+	z-index: 2;
+	color:white;
+	font-weight: bold;
+}

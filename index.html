@@ -1,0 +1,586 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="import"  href="games/superglider.html"/>
+	<link rel="icon" type="image/png" href="imgs/myface128x128.png" sizes="128x128">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="import" href="modals.html">
+	
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="include.js"></script>
+
+    <!-- Font link (google font)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+
+    <script>
+    	function swapSuperGlider() {
+    		// body...
+    		var sg = document.getElementsByTagName("link")[0].import;
+    		document.getElementsByTagName("html")[0].replaceChild(sg.getElementsByTagName("body")[0], document.getElementsByTagName("body")[0]);
+    	}
+    </script>
+	<title>Kofiro | Indie Game Dev</title>
+</head>
+<body>
+	<!-- nav class="navbar navbar-expand-sm fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				
+				<a class="navbar-brand" href="#">
+					<img src="imgs/myface128x128.png" alt="Logo" style="width:40px;">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="gamesDropDownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#games">
+							Games
+						</a>
+						<div class="dropdown-menu" aria-labelled="gamesDropDownMenu">
+							<a class="dropdown-item" href="games/superglider.html">Super Glider</a>
+							<a class="dropdown-item" href="#">Breaker</a>
+							<a class="dropdown-item" href="#">Bounce The Ball Forever</a>
+							<a class="dropdown-item" href="#">Rolly Birdie</a>
+							<a class="dropdown-item" href="#">Minesweeper</a>
+							<a class="dropdown-item" href="#">Space VR Racer</a>
+							<a class="dropdown-item" href="#">Cubox</a>
+							<a class="dropdown-item" href="#">Tap'N Destroy</a>
+							<a class="dropdown-item" href="#">The Last Drive</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="appsDropDownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#apps">
+							Apps
+						</a>
+						<div class="dropdown-menu" aria-labelled="appsDropDownMenu">
+							<a class="dropdown-item" href="#">Real Xylophone</a>
+							<a class="dropdown-item" href="#">Koto</a>
+							<a class="dropdown-item" href="#">Sounds & Sleep</a>
+							
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</nav -->
+	<div w3-include-html="modals.html"></div>
+	<div class="jumbotron" style="padding:100px 25px 75px 25px; background-color: #4C5154;">
+		<div>
+			<img src="imgs/myface.png" alt="Kofiro img" width="250" style="border-radius:75%; box-shadow: inset 0 0 10px 10px #4C5154;" >
+		</div>
+		<br><br>
+		<br>
+		<br>
+		<div>
+			<!--h1>Welcome!</h1 -->
+		<br>
+		<p> &#127918 Hey there, &#128516 I'm Kofi Austin, sometimes known as Kofiro, I'm an indie game developer. I build apps sometimes too. &#127918</p>
+		<p>&#127918 I really love making and playing video games. Feel free to explore my portfolio below. &#127918 </p>
+		</div>
+		
+	</div>
+	
+	<div class="container-fluid text-center">
+		<h2 class="toptitle">My Games</h2>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left:12.5%;">
+				<div class="row ">
+					<div class="col-sm-6">
+						<a href="games/onlyone.html"><span><img class="ico" src="imgs/icons/only_one.png" alt="Only One img" width="250" height="250"></span></a><br>
+				<h3>Only One</h3>
+				<h6>A unique logic centered puzzle game.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.OnlyOne" target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1574057876"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<a href="games/magicube.html"><span><img class="ico" src="imgs/icons/magicube.png" alt="Magicube img" width="250" height="250" ></span></a>
+						<br>
+						<h3>Magicube</h3>
+						<h6>A rubiks cube inspired play thing.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Magicube.rubiks.cube.solver"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1574057876"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+					<a	href="games/wordscape.html"><span><img class="ico" src="imgs/icons/wordscape.png" alt="Wordscape img" width="250" height="250"></span></a><br>
+				<h3>Wordscape</h3>
+				<h6>Search for words in this fun word game.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kofiro.word.search.wordhunt.puzzle"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1580103052"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+			
+		</div>
+		<!--br>
+		
+		<br>
+		<br>
+
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/dsb_xmas_icon.png" alt="DSB img" width="250" height="250"></span><br>
+				<h3>Bounce The Ball Forever</h3>
+				<h6>Bounce forever.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kofiro.dontstop.bouncing"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1495016624"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/cubox_icon.png" alt="Cubox img" width="250" height="250"></span><br>
+				<h3>Cubox</h3>
+				<h6>A 2D puzzle platformer.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.austekinteractivestudios.cubox"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1498852645"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+			
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+				<span><img class="ico" src="imgs/icons/rollybirdie_icon.png" alt="Rolly Birdie img" width="250" height="250"></span><br>
+				<h3>Rolly Birdie</h3>
+				<h6>Roll to collect your eggs</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.RollyBird"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1510040879"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+			
+		</div>
+		<br>
+		<br>
+		<br>
+
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/dss_icon.png" alt="BrickShooter img" width="250" height="250"></span><br>
+				<h3>Brick Shooter</h3>
+				<h6>A brick shooting arcade game.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kofiro.dontstop.shooting"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1499386247"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico"  src="imgs/icons/minesweeper_icon.png" alt="Minesweeper img" width="250" height="250"></span><br>
+				<h3>Minesweeper</h3>
+				<h6>A modern take on the classic.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Minesweeper"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1539534625"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/spaceracer_icon.png" alt="Space VR Racer img" width="250" height="250"></span><br>
+				<h3>Space VR Racer</h3>
+				<h6>Endless space racer.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kofiro.space.vr.racer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+					<span><img class="ico" src="imgs/icons/ccrs_icon.png" alt="Car Ramp Stunt img" width="250" height="250"></span><br>
+				<h3>Car Stunts Mega Ramp</h3>
+				<h6>Drive through mega ramps</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.kofiro.crazycardriving.impossiblestunt.driving.car.stuntdriving.ramp"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/ttt_icon.png" alt="Tic Tac Toe img" width="250" height="250"></span><br>
+				<h3>Tic Tac Toe Glow</h3>
+				<h6>A tic tac toe game with cool aesthetics.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.tictactoe.glow.xoxo.tictoc"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+							<span><img class="ico" src="imgs/icons/cd_icon.png" alt="Color Dash Racer img" width="250" height="250"></span><br>
+				<h3>Color Dash 3D</h3>
+				<h6>A hypercasual color based ball game.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://apps.apple.com/app/id1523923899"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+					<span><img class="ico" src="imgs/icons/glockey_icon.png" alt="Glockey img" width="250" height="250"></span><br>
+				<h3>Glockey</h3>
+				<h6>Fun air hockey game with glow aesthetics.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Glockey.airhockey.glowhockey.neon"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+		<br>
+		
+		<br -->
+		<!-- div class="row">
+			<div class="col-sm-3 .offset-sm-3" style="margin-left: 12.5%">
+				<span><img class="ico" src="imgs/icons/superglider_icon.png" alt="The Last Drive img" width="250" height="250"></span><br>
+				<h3>The Last Drive</h3>
+				<h6>An endless driving game filled with countless fun missions.</h6>
+			</div>
+			
+		</div -->
+	</div>
+	<br>
+	
+	<br>
+	<br>
+	<div class="container-fluid text-center bg-apps">
+		<h2 class="toptitle" >My Apps</h2>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" style="cursor: default;" src="imgs/icons/sas_icon.png" alt="Super Glider img" width="250" height="250"></span>
+						<br>
+						<h3>Sounds & Sleep</h3>
+						<h6>Fall asleep with calm & relaxing sounds.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Sounds.Sleep"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1547982865"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" style="cursor: default;" src="imgs/icons/koto_icon.png" alt="Super Glider img" width="250" height="250"></span><br>
+				<h3>Koto</h3>
+				<h6>The japanese instrument, Koto for smartphones</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Koto"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1574109273"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					
+					</div>
+				</div>
+					
+				
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" style="cursor: default;" src="imgs/icons/harp_icon.png" alt="Real Harp img" width="250" height="250"></span><br>
+				<h3>Harp</h3>
+				<h6>A harp for your smartphone</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Harp"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1574393868"  target="_blank" rel="noopener noreferrer"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					
+					</div>
+				</div>
+					
+				
+			</div>
+
+			
+			
+		</div>
+		<!-- br>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/tuba_icon.png" alt="Real Harp img" width="250" height="250"></span>
+						<br>
+				<h3>Tuba</h3>
+				<h6>A tuba for your smartphone</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Tuba"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+				
+			</div>
+			<div class="col-sm-3">
+
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/sas_icon.png" alt="Super Glider img" width="250" height="250"></span>
+						<br>
+						<h4>Sounds & Sleep</h4>
+						<h6>Fall asleep with calm & relaxing sounds.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.Sounds.Sleep"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+						<br>
+						<a href="https://apps.apple.com/app/id1547982865"><span><img src="imgs/badges/ios-badge.png" width="150"></span></a>
+					
+					</div>
+				</div>
+					
+				
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/accordion_icon.png" alt="Real Harp img" width="250" height="250"></span>
+						<br>
+				<h3>Accordion</h3>
+				<h6>An accordion for your smartphone</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.accordion.organ.accordionpiano"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+			
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3" style="margin-left: 12.5%">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/drumset_icon.png" alt="Real Harp img" width="250" height="250"></span>
+						<br>
+				<h3>Drum Set</h3>
+				<h6>A drum set for your smartphone</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.DrumSet.Drums.RealDrum"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col-sm-3">
+				<div class="row">
+					<div class="col-sm-6">
+						<span><img class="ico" src="imgs/icons/piano_icon.png" alt="Lite Piano img" width="250" height="250"></span>
+						<br>
+				<h3>Lite Piano</h3>
+				<h6>A lite piano keyboard to play piano music, with the perfect piano aesthetics.</h6>
+					</div>
+
+					<div class="col-sm-6">
+						<br>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.Kofiro.LitePiano.Piano.RealPiano.PerfectPiano"><span><img src="imgs/badges/google-play-badge.png" width="180"></span></a>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+		<br -->
+	</div>
+
+	<div class="container-fluid bg-grey text-center">
+		<br>
+		<br>
+			<div class="text-center">
+			<p>Here's more of my games and apps on <a href="https://play.google.com/store/apps/dev?id=8512248742869918055" target="_blank" rel="noopener noreferrer">android</a> and on <a href="https://apps.apple.com/us/developer/kofi-austin/id1495016623" target="_blank" rel="noopener noreferrer">iOS</a>.</p>
+			</div>
+		<br>
+		<br>
+		<br>
+		<h5 class="text-center">Follow me and subscribe to my channels to know what I'm up to!</h5>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-3">
+				<p><a href="mailto: kofibeduaustin222@gmail.com"><span></span>Mail<a/></p>
+				<p><a href="https://twitter.com/Kofiro22" target="_blank" rel="noopener noreferrer"><span></span>Twitter</a></p>
+				<p><a href="https://www.instagram.com/kofiro222/" target="_blank" rel="noopener noreferrer"><span></span>Instagram</a></p>
+			</div>
+			<div class="col-sm-3">
+				<p><a href="https://www.youtube.com/channel/UCNodwkk6tE08S25eOxDFKJg" target="_blank" rel="noopener noreferrer"><span></span>Youtube</a></p>
+				<p><a href="https://www.tiktok.com/@kofiro22?lang=en" target="_blank" rel="noopener noreferrer"><span></span>TikTok</a></p>
+				<p><a href="https://www.reddit.com/user/Kofiro" target="_blank" rel="noopener noreferrer"><span></span>Reddit</a></p>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+		<br>
+	</div>
+	
+	
+	<footer class="container-fluid text-center">
+		<a href="#myPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+
+	</footer>
+</body>
+</html>
